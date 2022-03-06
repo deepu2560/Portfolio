@@ -35,15 +35,6 @@ body {
     display: none; 
 }
 
-#home-about-main-div{
-    color: rgb(175, 174, 174);
-    display: flex;
-}
-
-#about-main-div{
-    width: 60%;
-}
-
 @media screen and (max-width: 600px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
