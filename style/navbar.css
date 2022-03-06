@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+    background-color: #222222;
 }
 
 .topnav {
@@ -23,8 +23,7 @@ body {
 }
 
 .topnav a:hover {
-    background-color: #04AA6D;
-    color: white;
+    text-decoration: underline;
 }
 
 .topnav a.active {
@@ -34,6 +33,15 @@ body {
 
 .topnav .icon {
     display: none; 
+}
+
+#home-about-main-div{
+    color: rgb(175, 174, 174);
+    display: flex;
+}
+
+#about-main-div{
+    width: 60%;
 }
 
 @media screen and (max-width: 600px) {
