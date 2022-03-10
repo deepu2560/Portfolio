@@ -1,47 +1,49 @@
-#home-about-main-div{
-    color: rgb(175, 174, 174);
-    display: flex;
+#home-about-main-div {
+  color: rgb(175, 174, 174);
+  display: flex;
 }
 
-#about-main-div{
-    width: 60%;
+#about-main-div {
+  width: 60%;
 }
 
-.skils-main-div{
-    background-color: #242629;
-    padding: 28px 18px;
-    padding-bottom: 48px;
+.skils-main-div {
+  background-color: #242629;
+  padding: 28px 18px;
+  padding-bottom: 48px;
 }
 
-.skill-heading{
-    color: #fff;
-    text-align: center;
+.skill-heading {
+  color: #fff;
+  text-align: center;
 }
 
-.skills_grid{
-    width: 60%;
-    margin: auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+.skills_grid {
+  max-width: 60%;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-.skill{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    width: 20%;
-    align-items: center;
-    justify-content: center;
+.skill {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 20%;
+  align-items: center;
+  justify-content: center;
 }
 
-.icon-skill{
-    color: #04AA6D;
-    font-size: 40px;
+.icon-skill {
+  color: #04aa6d;
+  font-size: 40px;
 }
 
-.skill-p{
-    font-weight: bold;
-    font-size: larger;
-    color: #fff;
+.skill-p {
+  font-weight: bold;
+  font-size: larger;
+  color: #fff;
 }
