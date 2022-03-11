@@ -3,6 +3,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap"
+      rel="stylesheet"
+    />
     <link rel="icon" href="./icon/favicon.ico" />
     <link
       rel="stylesheet"
@@ -40,10 +46,24 @@
 
     <div id="home-about-main-div">
       <div id="myPhoto-main-div">
-        <!-- <img src="./image/myPhoto.png" id="myPhoto" alt="Picture of Deepanshu Gulia"> -->
+        <img
+          src="./image/myPhoto.png"
+          id="myPhoto"
+          alt="Picture of Deepanshu Gulia"
+        />
       </div>
       <div id="about-main-div">
-        <h1>Hello!</h1>
+        <h1 id="myname-h1">
+          Hello! <span id="myname-about-main">I am Deepanshu Gulia</span>
+        </h1>
+        <p id="about-main-p-tag">
+          Creative and innovative full-stack MERN developer. Problem-solving and
+          motivated temperament. Takes challenges and provides his best to
+          complete that challenge. Practised in HTML, CSS and Javascript.
+          Looking forward to beginning a career as an associate entry-level
+          computer user.
+        </p>
+        <button id="resume-about-button">Resume</button>
       </div>
     </div>
 
@@ -51,7 +71,7 @@
       <div id="skills" class="skills">
         <h2 class="skill-heading">Skills</h2>
         <div class="skills_grid">
-          <div class="skill">
+          <div class="skill skil-html">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -70,7 +90,7 @@
             </svg>
             <p class="skill-p">HTML</p>
           </div>
-          <div class="skill">
+          <div class="skill skill-css">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -89,7 +109,7 @@
             </svg>
             <p class="skill-p">CSS</p>
           </div>
-          <div class="skill">
+          <div class="skill skill-javascript">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -108,7 +128,7 @@
             </svg>
             <p class="skill-p">JavaScript</p>
           </div>
-          <div class="skill">
+          <div class="skill skill-express">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -127,7 +147,7 @@
             </svg>
             <p class="skill-p">ExpressJS</p>
           </div>
-          <div class="skill">
+          <div class="skill skill-react">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -146,7 +166,7 @@
             </svg>
             <p class="skill-p">React</p>
           </div>
-          <div class="skill">
+          <div class="skill skill-mongodb">
             <svg
               stroke="currentColor"
               fill="currentColor"
@@ -168,5 +188,7 @@
         </div>
       </div>
     </div>
+
+    <div></div>
   </body>
 </html>

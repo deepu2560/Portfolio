@@ -1,40 +1,101 @@
 #home-about-main-div {
   color: rgb(175, 174, 174);
   display: flex;
+  flex-direction: row-reverse;
+  margin-top: 20px;
 }
 
 #about-main-div {
   width: 60%;
+  margin-left: 20px;
+  text-align: center;
+}
+
+#myname-h1 {
+  font-family: "Kaushan Script", cursive;
+}
+
+#myname-about-main {
+  color: #04aa6d;
+  font-family: "Fredoka", sans-serif;
+  margin-left: 15px;
+}
+
+#about-main-p-tag {
+  margin-top: 20px;
+  width: 91%;
+  margin: auto;
+  font-size: large;
+}
+
+#myPhoto-main-div {
+  background-color: #04aa6d;
+  border-radius: 100%;
+  padding: 20px;
+  margin: auto;
+}
+
+#myphoto {
+  width: 300px;
+  height: 300px;
+}
+
+#resume-about-button {
+  margin-top: 5%;
+  font-size: 200%;
+  font-weight: bolder;
+  background-color: transparent;
+  color: #fff;
+  padding: 15px 50px;
+  border: 2px solid #04aa6d;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#resume-about-button:hover {
+  background-color: #04aa6d;
+  color: red;
 }
 
 .skils-main-div {
   background-color: #242629;
   padding: 28px 18px;
   padding-bottom: 48px;
+  margin-top: 20px;
 }
 
 .skill-heading {
   color: #fff;
+  font-size: 400%;
   text-align: center;
 }
 
 .skills_grid {
-  max-width: 60%;
-  height: 200px;
+  width: 60%;
   margin: auto;
   margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  row-gap: 20px;
+}
+
+.skill-react {
+  grid-column: 2/3;
+}
+
+.skill-mongodb {
+  grid-column: 3/4;
 }
 
 .skill {
   display: flex;
   flex-direction: row;
   gap: 20px;
-  width: 20%;
+  width: 100%;
   align-items: center;
   justify-content: center;
+  /* border: 1px solid red; */
 }
 
 .icon-skill {
