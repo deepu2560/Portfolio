@@ -28,9 +28,12 @@ body {
   text-decoration: underline;
 }
 
-.topnav a.active {
-  background-color: #04aa6d;
+.active {
   color: white;
+}
+
+.active:hover {
+  text-decoration: none;
 }
 
 .topnav .icon {
