@@ -141,9 +141,10 @@
 
 .blog-main-div > div {
   background-color: #242629;
-  padding: 10px;
+  padding: 20px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   border-radius: 20px;
+  cursor: pointer;
 }
 
 .blog-main-div > div > h2 {

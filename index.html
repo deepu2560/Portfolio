@@ -218,7 +218,7 @@
     <div id="Blog">
       <h2>Blogs</h2>
       <div class="blog-main-div">
-        <div>
+        <div id="blog-forestessentindia">
           <h2>How does a commerce person make a website</h2>
           <p>
             Hello! <br />
@@ -231,7 +231,7 @@
           <br />
           <p>THANK YOU</p>
         </div>
-        <div>
+        <div id="blog-nike">
           <h2>Journey to the Clone of Nike.com</h2>
           <p>
             Hello! <br />
@@ -246,6 +246,28 @@
         </div>
       </div>
     </div>
+
+    <script>
+      document
+        .querySelector("#blog-forestessentindia")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          window.open(
+            "https://medium.com/@deepanshugulia04/how-does-a-commerce-person-make-a-website-7ef4c476f6b1",
+            "_blank",
+          );
+        });
+
+      document
+        .querySelector("#blog-nike")
+        .addEventListener("click", function (event) {
+          event.preventDefault();
+          window.open(
+            "https://medium.com/@deepanshugulia04/journey-to-the-clone-of-nike-com-8cec1bbc099d",
+            "_blank",
+          );
+        });
+    </script>
 
     <hr />
 
