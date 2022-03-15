@@ -26,6 +26,7 @@
         <a href="#Skills">Skils</a>
         <a href="#Projects">Projects</a>
         <a href="#Contact">Contact</a>
+        <a href="#Blog">Blogs</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
@@ -198,11 +199,108 @@
       </div>
     </div>
 
-    <div class="project-main-div" id="Projects"></div>
+    <div class="quotes">
+      <h2>
+        “Sometimes it pays to stay in bed on Monday, rather than spending the
+        rest of the week debugging Monday's code.”
+        <span>- Dan Salomon</span>
+      </h2>
+    </div>
 
-    <div class="blog-main-div"></div>
+    <div class="project-main-div" id="Projects">
+      <div id="project-forestessentialindia"></div>
+      <div id="project-nike-html"></div>
+      <div id="project-nike-ejs"></div>
+    </div>
 
-    <div class="contant-main-div" id="Contact"></div>
+    <hr />
+
+    <div id="Blog">
+      <h2>Blogs</h2>
+      <div class="blog-main-div">
+        <div>
+          <h2>How does a commerce person make a website</h2>
+          <p>
+            Hello! <br />
+            <br />
+            In this you blog you will get to know how did I worked a team of 5
+            member and a fully dynamic website to wihin 1 week. I was from
+            commerce background and I made this website and learned alot form
+            this and also got confident in website development
+          </p>
+          <br />
+          <p>THANK YOU</p>
+        </div>
+        <div>
+          <h2>Journey to the Clone of Nike.com</h2>
+          <p>
+            Hello! <br />
+            <br />
+            This you blog is about a clone of Nike.com. I have shared my journey
+            working with a non cs background team and make a fully daynamic and
+            awesome website. Our team was of 5 member and we made this clone in
+            1 week only.
+          </p>
+          <br />
+          <p>THANK YOU</p>
+        </div>
+      </div>
+    </div>
+
+    <hr />
+
+    <div class="quotes">
+      <h2>
+        “Java is to JavaScript what car is to Carpet.”
+        <span>- Chris Heilmann</span>
+      </h2>
+    </div>
+
+    <div class="contact-main-div" id="Contact">
+      <h2>Contact</h2>
+      <div id="email-whatsapp">
+        <p><strong>Email Id - </strong> deepanshugulia04@gamil.com</p>
+        <p><strong>Whatsapp no. - </strong> 9821020866</p>
+      </div>
+      <div id="social-link-button">
+        <button class="social-button" id="linkedin-button">LinkedIn</button>
+        <button class="social-button" id="github-button">GitHub</button>
+        <button class="social-button" id="twitter-button">Twitter</button>
+        <button class="social-button" id="medium-button">Medium</button>
+      </div>
+      <script>
+        document
+          .querySelector("#linkedin-button")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            window.open(
+              "https://www.linkedin.com/in/deepanshu-gulia/",
+              "_blank",
+            );
+          });
+
+        document
+          .querySelector("#github-button")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            window.open("https://github.com/Deepu2560", "_blank");
+          });
+
+        document
+          .querySelector("#twitter-button")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            window.open("https://twitter.com/DeepanshuGulia", "_blank");
+          });
+
+        document
+          .querySelector("#medium-button")
+          .addEventListener("click", function (event) {
+            event.preventDefault();
+            window.open("https://medium.com/@deepanshugulia04", "_blank");
+          });
+      </script>
+    </div>
 
     <div></div>
   </body>
