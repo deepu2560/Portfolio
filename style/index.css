@@ -183,3 +183,136 @@
 .social-button:hover {
   background-color: #04aa6d;
 }
+
+#Projects {
+  padding: 28px 18px;
+  padding-bottom: 48px;
+}
+
+#Projects > h2 {
+  color: #fff;
+  font-size: 400%;
+  text-align: center;
+}
+
+.project-main-div {
+  display: grid;
+  width: 95%;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+#project-forestessentialindia {
+  height: 750px;
+  background-image: url("../image/forestessentialindia.jpeg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: baseline;
+}
+
+#project-forestessentialindia > div {
+  background-color: rgba(36, 38, 41, 0.7);
+  width: 100%;
+  margin-top: 42%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#project-forestessentialindia > div > h2 {
+  text-align: center;
+  color: #04aa6d;
+  font-size: xx-large;
+}
+
+#project-forestessentialindia > div > p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+.deploy-source-code {
+  display: flex;
+  justify-content: center;
+}
+
+.deploy-source-code > a {
+  margin-top: 20px;
+  font-size: large;
+  font-weight: bolder;
+  background-color: transparent;
+  color: #fff;
+  padding: 5px 10px;
+  border: 2px solid #04aa6d;
+  border-radius: 100px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.deploy-source-code > a:hover {
+  background-color: #04aa6d;
+}
+
+.product-features {
+  width: 80%;
+  margin: auto;
+}
+
+#project-nike-html {
+  height: 750px;
+  background-image: url("../image/nike.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: baseline;
+}
+
+#project-nike-html > div {
+  background-color: rgba(36, 38, 41, 0.7);
+  width: 100%;
+  margin-top: 40%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#project-nike-html > div > h2 {
+  text-align: center;
+  color: #04aa6d;
+  font-size: xx-large;
+}
+
+#project-nike-html > div > p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#project-nike-ejs {
+  height: 750px;
+  background-image: url("../image/nikeindia.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: baseline;
+}
+
+#project-nike-ejs > div {
+  background-color: rgba(36, 38, 41, 0.7);
+  width: 100%;
+  margin-top: 40%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#project-nike-ejs > div > h2 {
+  text-align: center;
+  color: #04aa6d;
+  font-size: xx-large;
+}
+
+#project-nike-ejs > div > p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
