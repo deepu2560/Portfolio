@@ -75,16 +75,8 @@
   margin-top: 20px;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  grid-template-rows: repeat(4, 1fr);
   row-gap: 20px;
-}
-
-.skill-react {
-  grid-column: 2/3;
-}
-
-.skill-mongodb {
-  grid-column: 3/4;
 }
 
 .skill {
@@ -319,6 +311,14 @@
   width: 80%;
   margin: auto;
   text-align: center;
+}
+
+#mailto {
+  cursor: pointer;
+}
+
+#footer-space {
+  height: 50px;
 }
 
 @media only screen and (min-width: 415px) and (max-width: 820px) {
@@ -592,15 +592,30 @@
     justify-content: center;
   }
 
+  #project-forestessentialindia {
+    height: 950px;
+  }
+
   #project-forestessentialindia > div {
     background-color: rgba(36, 38, 41, 0.9);
+    margin-top: 87%;
+  }
+
+  #project-nike-html {
+    height: 950px;
   }
 
   #project-nike-html > div {
     background-color: rgba(36, 38, 41, 0.9);
+    margin-top: 90%;
+  }
+
+  #project-nike-ejs {
+    height: 950px;
   }
 
   #project-nike-ejs > div {
     background-color: rgba(36, 38, 41, 0.9);
+    margin-top: 90%;
   }
 }
