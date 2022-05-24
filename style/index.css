@@ -202,8 +202,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   align-items: baseline;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-  border-radius: 20px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
 }
 
 #project-forestessentialindia > div {
@@ -260,7 +259,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   align-items: baseline;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
 }
 
 #project-nike-html > div {
@@ -290,7 +289,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   align-items: baseline;
-  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
 }
 
 #project-nike-ejs > div {
@@ -308,6 +307,36 @@
 }
 
 #project-nike-ejs > div > p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#project-netflix {
+  height: 750px;
+  background-image: url("../image/netflix.jpg");
+  background-position: top;
+  background-size: cover;
+  background-repeat: no-repeat;
+  align-items: baseline;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+#project-netflix > div {
+  background-color: rgba(36, 38, 41, 0.9);
+  width: 100%;
+  margin-top: 42%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#project-netflix > div > h2 {
+  text-align: center;
+  color: #04aa6d;
+  font-size: xx-large;
+}
+
+#project-netflix > div > p {
   width: 80%;
   margin: auto;
   text-align: center;
@@ -615,6 +644,15 @@
   }
 
   #project-nike-ejs > div {
+    background-color: rgba(36, 38, 41, 0.9);
+    margin-top: 90%;
+  }
+
+  #project-netflix {
+    height: 950px;
+  }
+
+  #project-netflix > div {
     background-color: rgba(36, 38, 41, 0.9);
     margin-top: 90%;
   }
