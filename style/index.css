@@ -342,6 +342,66 @@
   text-align: center;
 }
 
+#project-school-admin {
+  height: 750px;
+  background-image: url("../image/schoolAdmin.png");
+  background-position: center;
+  background-size: 220%;
+  background-repeat: no-repeat;
+  align-items: baseline;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+#project-school-admin > div {
+  background-color: rgba(36, 38, 41, 0.9);
+  width: 100%;
+  margin-top: 37%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#project-school-admin > div > h2 {
+  text-align: center;
+  color: #04aa6d;
+  font-size: xx-large;
+}
+
+#project-school-admin > div > p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
+#project-hire-a-cook {
+  height: 750px;
+  background-image: url("../image/hireAcook.png");
+  background-position: center;
+  background-size: 220%;
+  background-repeat: no-repeat;
+  align-items: baseline;
+  box-shadow: rgba(255, 255, 255, 0.24) 0px 3px 8px;
+}
+
+#project-hire-a-cook > div {
+  background-color: rgba(36, 38, 41, 0.9);
+  width: 100%;
+  margin-top: 37%;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+
+#project-hire-a-cook > div > h2 {
+  text-align: center;
+  color: #04aa6d;
+  font-size: xx-large;
+}
+
+#project-hire-a-cook > div > p {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+}
+
 #mailto {
   cursor: pointer;
 }
@@ -627,7 +687,7 @@
 
   #project-forestessentialindia > div {
     background-color: rgba(36, 38, 41, 0.9);
-    margin-top: 87%;
+    margin-top: 80%;
   }
 
   #project-nike-html {
@@ -645,7 +705,7 @@
 
   #project-nike-ejs > div {
     background-color: rgba(36, 38, 41, 0.9);
-    margin-top: 90%;
+    margin-top: 80%;
   }
 
   #project-netflix {
@@ -654,6 +714,26 @@
 
   #project-netflix > div {
     background-color: rgba(36, 38, 41, 0.9);
-    margin-top: 90%;
+    margin-top: 95%;
+  }
+
+  #project-school-admin {
+    height: 950px;
+    background-size: cover;
+  }
+
+  #project-school-admin > div {
+    background-color: rgba(36, 38, 41, 0.9);
+    margin-top: 77%;
+  }
+
+  #project-hire-a-cook {
+    height: 950px;
+    background-size: cover;
+  }
+
+  #project-hire-a-cook > div {
+    background-color: rgba(36, 38, 41, 0.9);
+    margin-top: 80%;
   }
 }
