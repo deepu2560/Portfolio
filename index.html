@@ -48,16 +48,6 @@
           <i class="fa fa-bars"></i>
         </a>
       </div>
-      <script>
-        function myFunction() {
-          var x = document.getElementById("myTopnav");
-          if (x.className === "topnav") {
-            x.className += " responsive";
-          } else {
-            x.className = "topnav";
-          }
-        }
-      </script>
     </div>
 
     <div class="home-about-main-div" id="Home">
@@ -81,17 +71,6 @@
         </p>
         <button id="resume-about-button">Resume</button>
       </div>
-      <script>
-        document
-          .querySelector("#resume-about-button")
-          .addEventListener("click", function (event) {
-            event.preventDefault();
-            window.open(
-              "https://drive.google.com/file/d/1V526SmC1U3MukLDV15Z1sk0pDXrhRx1M/view?usp=sharing",
-              "_blank",
-            );
-          });
-      </script>
     </div>
 
     <div class="skils-main-div" id="Skills">
@@ -396,230 +375,14 @@
     <div id="Projects">
       <h2>Projects</h2>
       <div class="project-main-div">
-        <div id="project-forestessentialindia">
+        <div id="project-number-changing">
+          <h1 id="total-projects"></h1>
           <div>
-            <h2>Clone Forest Essential India</h2>
-            <p>
-              In this project, we made a clone of forestessentialindia.com. We
-              made a 90%-95% clone of the official website. We made a fully
-              dynamic website in which you can go over through all projects, you
-              can sign in and signup, and much more.
-            </p>
-            <br />
-            <p><strong>Tech Stack:- </strong> HTML, CSS, Javascript, node.js</p>
-            <br />
-            <div class="product-features">
-              <h4>features:-</h4>
-              <ul>
-                <li>Dynamic navbar and footer</li>
-                <li>Bespoke services and About us page</li>
-                <li>Dynamic Cart and Wishlist page</li>
-                <li>Payment and Gateway</li>
-              </ul>
-            </div>
-            <div class="deploy-source-code">
-              <a
-                href="https://forestessentialindiaclone.netlify.app/"
-                target="_blank"
-                >Deployed Link (Click me)</a
-              >
-              <a
-                href="https://github.com/Deepu2560/forestessentialsindia"
-                target="_blank"
-                >Source Code (Click me)</a
-              >
-            </div>
+            <button id="prev-project"><</button>
+            <button id="next-project">></button>
           </div>
         </div>
-
-        <div id="project-nike-html">
-          <div>
-            <h2>Clone Nike</h2>
-            <p>
-              In this project, we made a clone of Nike.com. On our website, you
-              get an overview page of every single category and on that page,
-              you get the option to move for shoes or clothes of that category.
-              On our website, you get a dynamic payment and gateway page too.
-            </p>
-            <br />
-            <p>
-              <strong>Tech Stack:- </strong> HTML, CSS, Javascript, Node.js, ES6
-              (advanse js), Import and export (advance js)
-            </p>
-            <br />
-            <div class="product-features">
-              <h4>features:-</h4>
-              <ul>
-                <li>Dynamic Sign/Signin Page</li>
-                <li>Dynamic Filter and Sort features</li>
-                <li>Sneakers Page</li>
-              </ul>
-            </div>
-            <div class="deploy-source-code">
-              <a
-                href="https://nikemasaischoolclone.netlify.app/"
-                target="_blank"
-                >Deployed Link (Click me)</a
-              >
-              <a href="https://github.com/Deepu2560/Nike" target="_blank"
-                >Source Code (Click me)</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div id="project-nike-ejs">
-          <div>
-            <h2>Clone Nike.com</h2>
-            <p>
-              In this project, we again made a clone of Nike.com. In this we
-              used advanced javascript, MongoDB, ExpressJS, and ejs, this is the
-              difference from the last Nike clone. We made a database on our own
-              and we fetch that to get products data. All functionality is the
-              same as previous.
-            </p>
-            <br />
-            <p>
-              <strong>Tech Stack:- </strong> Ejs, CSS, Javascript, Node.js,
-              MongoDB, ExpressJS, Heroku
-            </p>
-            <br />
-            <div class="product-features">
-              <h4>features:-</h4>
-              <ul>
-                <li>Dynamic Sign/Signin Page</li>
-                <li>Made by use of backend</li>
-                <li>Pages made in ejs</li>
-                <li>Dynamic database made by mongodb and deployed heroku</li>
-              </ul>
-            </div>
-            <div class="deploy-source-code">
-              <a
-                href="https://nikemasaischoolclone.netlify.app/"
-                target="_blank"
-                >Deployed Link (Click me)</a
-              >
-              <a href="https://github.com/Deepu2560/Nike" target="_blank"
-                >Source Code (Click me)</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div id="project-netflix">
-          <div>
-            <h2>Clone Netflix</h2>
-            <p>
-              In this project, we used react, javascript, scss framework to
-              build; this website. We made this clone 1 week and in our team we
-              are 5 members. You can only watch trailers of movies in this
-              clone.
-            </p>
-            <br />
-            <p>
-              <strong>Tech Stack:- </strong> REACT, MONGODB, SASS, NodeJS,
-              Express
-            </p>
-            <br />
-            <div class="product-features">
-              <h4>features:-</h4>
-              <ul>
-                <li>Dynamic Sign/Signin Page</li>
-                <li>90% clone of origional Netflix</li>
-                <li>Used React</li>
-                <li>Dynamic database made by mongodb and deployed heroku</li>
-              </ul>
-            </div>
-            <div class="deploy-source-code">
-              <a
-                href="https://netflix-clone-eight-psi.vercel.app/"
-                target="_blank"
-                >Deployed Link (Click me)</a
-              >
-              <a href="https://github.com/Deepu2560/Netflix" target="_blank"
-                >Source Code (Click me)</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div id="project-school-admin">
-          <div>
-            <h2>School Admin App</h2>
-            <p>
-              This is a school admin web application. This is a full-stack MERN
-              project. I used react and redux for frontend, Material UI for
-              backend, exprss and mongodb for backend. I deployed backend on
-              heroku and frontend on vercel.
-            </p>
-            <br />
-            <p>
-              <strong>Tech Stack:- </strong> React, Redux, Material UI, Express,
-              MongoDB, Node.js, Javascript, HTML, CSS
-            </p>
-            <br />
-            <div class="product-features">
-              <h4>features:-</h4>
-              <ul>
-                <li>Used react for frontend and mongodb,exress for backend</li>
-                <li>fully dynamic interface</li>
-                <li>User friendly</li>
-                <li>
-                  only admin can login(for testing purpose login credential are
-                  on github repo)
-                </li>
-              </ul>
-            </div>
-            <div class="deploy-source-code">
-              <a
-                href="https://teacher-manager-deepu2560.vercel.app/"
-                target="_blank"
-                >Deployed Link (Click me)</a
-              >
-              <a
-                href="https://github.com/Deepu2560/school-admin"
-                target="_blank"
-                >Source Code (Click me)</a
-              >
-            </div>
-          </div>
-        </div>
-
-        <div id="project-hire-a-cook">
-          <div>
-            <h2>Hire A Cook</h2>
-            <p>
-              This is a unique website. We in a team made this website start
-              from scratch. This is for masai school hackathon project. In this
-              website you can book a cook on subscription bases and you have to
-              also give information about for how many cook have to make food
-              and in many times a day.
-            </p>
-            <br />
-            <p>
-              <strong>Tech Stack:- </strong> React, Redux, Material UI, Express,
-              MongoDB, Node.js, Javascript, HTML, CSS, Socket.io
-            </p>
-            <br />
-            <div class="product-features">
-              <h4>features:-</h4>
-              <ul>
-                <li>dynamic Signin/Signup page</li>
-                <li>fully dynamic interface</li>
-                <li>User friendly</li>
-                <li>Dynamic product page</li>
-              </ul>
-            </div>
-            <div class="deploy-source-code">
-              <a href="https://hirecook.vercel.app/" target="_blank"
-                >Deployed Link (Click me)</a
-              >
-              <a href="https://github.com/Deepu2560/Hire-A-Cook" target="_blank"
-                >Source Code (Click me)</a
-              >
-            </div>
-          </div>
-        </div>
+        <div id="project-display-main-div"></div>
       </div>
     </div>
 
@@ -655,28 +418,6 @@
           <p>THANK YOU</p>
         </div>
       </div>
-
-      <script>
-        document
-          .querySelector("#blog-forestessentindia")
-          .addEventListener("click", function (event) {
-            event.preventDefault();
-            window.open(
-              "https://medium.com/@deepanshugulia04/how-does-a-commerce-person-make-a-website-7ef4c476f6b1",
-              "_blank",
-            );
-          });
-
-        document
-          .querySelector("#blog-nike")
-          .addEventListener("click", function (event) {
-            event.preventDefault();
-            window.open(
-              "https://medium.com/@deepanshugulia04/journey-to-the-clone-of-nike-com-8cec1bbc099d",
-              "_blank",
-            );
-          });
-      </script>
     </div>
 
     <hr />
@@ -702,141 +443,10 @@
         <button class="social-button" id="twitter-button">Twitter</button>
         <button class="social-button" id="medium-button">Medium</button>
       </div>
-      <script>
-        document
-          .querySelector("#mailto")
-          .addEventListener("click", function (event) {
-            event.preventDefault();
-            window.open("mailto:deepanshugulia04@gamil.com", "_blank");
-          });
-
-        document
-          .querySelector("#linkedin-button")
-          .addEventListener("click", function (event) {
-            event.preventDefault();
-            window.open(
-              "https://www.linkedin.com/in/deepanshu-gulia/",
-              "_blank",
-            );
-          });
-
-        document
-          .querySelector("#github-button")
-          .addEventListener("click", function (event) {
-            event.preventDefault();
-            window.open("https://github.com/Deepu2560", "_blank");
-          });
-
-        document
-          .querySelector("#twitter-button")
-          .addEventListener("click", function (event) {
-            event.preventDefault();
-            window.open("https://twitter.com/DeepanshuGulia", "_blank");
-          });
-
-        document
-          .querySelector("#medium-button")
-          .addEventListener("click", function (event) {
-            event.preventDefault();
-            window.open("https://medium.com/@deepanshugulia04", "_blank");
-          });
-      </script>
     </div>
 
     <div id="footer-space"></div>
   </body>
 </html>
 
-<script>
-  let data = [
-    {
-      id: "project-forestessentialindia",
-      name: "Clone Forest Essential India",
-      discription:
-        "In this project, we made a clone of forestessentialindia.com. We made a 90%-95% clone of the official website. We made a fully dynamic website in which you can go over through all projects, you can sign in and signup, and much more.",
-      tech: "HTML, CSS, Javascript, node.js",
-      features: [
-        "Dynamic navbar and footer",
-        "Bespoke services and About us page",
-        "Dynamic Cart and Wishlist page",
-        "Payment and Gateway",
-      ],
-      deploy: "https://forestessentialindiaclone.netlify.app/",
-      github: "https://github.com/Deepu2560/forestessentialsindia",
-    },
-    {
-      id: "project-nike-html",
-      name: "Clone Nike",
-      discription:
-        "In this project, we made a clone of Nike.com. On our website, you get an overview page of every single category and on that page, you get the option to move for shoes or clothes of that category. On our website, you get a dynamic payment and gateway page too.",
-      tech: "HTML, CSS, Javascript, Node.js, ES6 (advanse js), Import and export (advance js)",
-      features: [
-        "Dynamic Sign/Signin Page",
-        "Dynamic Filter and Sort features",
-        "Sneakers Page",
-      ],
-      deploy: "https://nikemasaischoolclone.netlify.app/",
-      github: "https://github.com/Deepu2560/Nike",
-    },
-    {
-      id: "project-nike-ejs",
-      name: "Clone Nike.com",
-      discription:
-        "In this project, we again made a clone of Nike.com. In this we used advanced javascript, MongoDB, ExpressJS, and ejs, this is the difference from the last Nike clone. We made a database on our own and we fetch that to get products data. All functionality is the same as previous.",
-      tech: "Ejs, CSS, Javascript, Node.js, MongoDB, ExpressJS, Heroku",
-      features: [
-        "Dynamic Sign/Signin Page",
-        "Made by use of backend",
-        "Pages made in ejs",
-        "Dynamic database made by mongodb and deployed heroku",
-      ],
-      deploy: "https://nikemasaischoolclone.netlify.app/",
-      github: "https://github.com/Deepu2560/Nike",
-    },
-    {
-      id: "project-netflix",
-      name: "Clone Netflix",
-      discription:
-        "In this project, we used react, javascript, scss framework to build; this website. We made this clone 1 week and in our team we are 5 members. You can only watch trailers of movies in this clone.",
-      tech: "REACT, MONGODB, SASS, NodeJS, Express",
-      features: [
-        "Dynamic Modern design Signup/Signup Page",
-        "90% clone of original Netflix",
-        "Web application made by use of react",
-        "Dynamic database made by mongodb, express and heroku",
-      ],
-      deploy: "https://netflix-clone-eight-psi.vercel.app/",
-      github: "https://github.com/Deepu2560/Netflix",
-    },
-    {
-      id: "project-school-admin",
-      name: "School Admin ",
-      discription:
-        "This is a school admin web application. This is a full-stack MERN project. I used react and redux for frontend, Material UI for backend, exprss and mongodb for backend. I deployed backend on heroku and frontend on vercel.",
-      tech: "React, Redux, Material UI, Express, MongoDB, Node.js, Javascript, HTML, CSS",
-      features: [
-        "Used react for frontend and mongodb,exress for backend",
-        "fully dynamic interface",
-        "User friendly",
-        "only admin can login(for testing purpose login credential are on github repo)",
-      ],
-      deploy: "https://teacher-manager-deepu2560.vercel.app/",
-      github: "https://github.com/Deepu2560/school-admin",
-    },
-    {
-      id: "project-hire-a-cook",
-      name: "Hire A Cook",
-      discription:
-        "This is a unique website. We in a team made this website start from scratch. This is for masai school hackathon project. In this website you can book a cook on subscription bases and you have to also give information about for how many cook have to make food and in many times a day.",
-      tech: "React, Redux, Material UI, Express, MongoDB, Node.js, Javascript, HTML, CSS, Socket.io",
-      features: [
-        "dynamic Signin/Signup page",
-        "fully dynamic interface",
-        "User friendly",
-        "Dynamic product page",
-      ],
-      deploy: "https://hirecook.vercel.app/",
-      github: "https://github.com/Deepu2560/Hire-A-Cook",
-    },
-  ];
-</script>
+<script src="./script/index.js"></script>
