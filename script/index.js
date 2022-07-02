@@ -218,6 +218,40 @@ let data = [
     deploy: "https://deepu2560-calculator.vercel.app/",
     github: "https://github.com/Deepu2560/calculator",
   },
+  {
+    id: "project-weather-app",
+    name: "Weather App",
+    discription:
+      "This is a solo react web application. In this web application you can search for weather app of city you want. In main screen you will see a box of content in which you will see three sides at top navbar, at left city detail box and at right week details.",
+    tech: "React, React-chartjs-2, chartjs, axios, vercel, Node.js, Javascript, HTML, CSS",
+    features: [
+      "dynamic modern style UI",
+      "Graph for week weather",
+      "Modern style search input box",
+      "Search any known city",
+    ],
+
+    image: "../image/weatherApp.png",
+    deploy: "https://deepu2560-weather-app.vercel.app/",
+    github: "https://github.com/Deepu2560/weather-app",
+  },
+  {
+    id: "project-product-api",
+    name: "Product Api",
+    discription:
+      "This is a product api. In this api you can post data of any product of and you can get data on base categories. You can also get all data and you can get data on the base of id of product.",
+    tech: "Nodejs, Express, Mongodb, Mongoose, Cors",
+    features: [
+      "Post product to backend",
+      "Pagination",
+      "Get all products or get product by category or by Id",
+      "Delete product from id",
+    ],
+
+    image: "../image/productApi.png",
+    deploy: "https://github.com/Deepu2560/product-api",
+    github: "https://github.com/Deepu2560/product-api",
+  },
 ];
 
 let currentProject = 0;
@@ -288,7 +322,7 @@ function projectsDisplay(index) {
   deployedGithubLinks.className = "deploy-source-code";
 
   var gitHubButton = document.createElement("a");
-  gitHubButton.innerHTML = "Deployed Link (Click me)";
+  gitHubButton.innerHTML = "Github Link (Click me)";
 
   gitHubButton.addEventListener("click", function (event) {
     event.preventDefault();
