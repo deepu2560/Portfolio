@@ -168,6 +168,56 @@ let data = [
     deploy: "https://hirecook.vercel.app/",
     github: "https://github.com/Deepu2560/Hire-A-Cook",
   },
+  {
+    id: "project-covid-tracker",
+    name: "Covid-Tracker App",
+    discription:
+      "This is a solo project of covid tracker. In this project track covid cases for any country you looking for. In this web application you will see report for world wide, countinents wise, all countries reports and you can search for specific country of you want. Enjoy application by deployed link below.",
+    tech: "React, React-Redux, Express, MongoDB, Node.js, Javascript, HTML, CSS, Heroku, Vercel",
+    features: [
+      "dynamic modern style Signin/Signup page",
+      "dashing dashboard",
+      "User friendly",
+      "Search any Country",
+    ],
+
+    image: "../image/covidTracker.png",
+    deploy: "https://deepu2560-covid-tracker.vercel.app/",
+    github: "https://github.com/Deepu2560/covid-tracker",
+  },
+  {
+    id: "project-todo-app",
+    name: "Todo App",
+    discription:
+      "This website is a todo web application. In this application you can add task as pending then change status to doing then done and then you can delete. This web application have signin and signup feature too. Every user have its own data.",
+    tech: "React, React-Redux, Express, MongoDB, Node.js, Javascript, HTML, CSS, Heroku, Vercel",
+    features: [
+      "dynamic modern style navbar",
+      "Modern style home page",
+      "pending, doing and done section layout",
+      "full-stack web app",
+    ],
+
+    image: "../image/todoApp.png",
+    deploy: "https://deepu2560-todo-app.vercel.app/",
+    github: "https://github.com/Deepu2560/TODO-list",
+  },
+  {
+    id: "project-calculator-app",
+    name: "Calculator App",
+    discription:
+      "This is a project made by me. In this project you can able to calculate any mathematical operation very easily. You can also calculate square, square root, cube and cube of a number very easily.",
+    tech: "React, Node.js, Javascript, HTML, CSS",
+    features: [
+      "dynamic modern style Calculator",
+      "Square and cube any time between calculation",
+      "square root and cube root any time between calculation",
+    ],
+
+    image: "../image/calculator.png",
+    deploy: "https://deepu2560-calculator.vercel.app/",
+    github: "https://github.com/Deepu2560/calculator",
+  },
 ];
 
 let currentProject = 0;
@@ -203,6 +253,7 @@ function projectsDisplay(index) {
 
   var title = document.createElement("h2");
   title.innerText = elem.name;
+  title.style.color = "#04aa6d";
 
   var description = document.createElement("div");
 
