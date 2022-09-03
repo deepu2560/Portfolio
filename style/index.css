@@ -202,19 +202,15 @@
 }
 
 #project-number-changing > div {
-  width: 200px;
-  height: 100%;
+  width: 150px;
+  height: fit-content;
   display: flex;
-  justify-content: space-between;
+  gap: 10px;
 }
 
-#project-number-changing > div > button {
-  padding: 25px;
-  font-weight: bolder;
-  font-size: xx-large;
+#project-number-changing > div > svg {
   text-align: center;
-  color: #fff;
-  background-color: transparent;
+  color: rgb(175, 174, 174);
   border: 1px solid #04aa6d;
   border-radius: 100%;
   display: flex;
@@ -224,8 +220,8 @@
   margin-bottom: 5px;
 }
 
-#project-number-changing > div > button:hover {
-  background-color: #04aa6d;
+#project-number-changing > div > svg:hover {
+  color: #04aa6d;
 }
 
 #project-display-main-div {
@@ -245,8 +241,8 @@
 }
 
 #project-display-main-div > img {
-  height: 100%;
-  width: 30%;
+  max-height: 100%;
+  width: 35%;
 }
 
 .deploy-source-code {

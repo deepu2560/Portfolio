@@ -180,6 +180,98 @@ const data = [
     deploy: "https://github.com/Deepu2560/product-api",
     github: "https://github.com/Deepu2560/product-api",
   },
+  {
+    id: "project-movie-app",
+    name: "Movie App",
+    discription:
+      "In this web application you can search for any movie you want. After search you will see alot of results when you click anyone of the reasult you will see details of that movie. Currently you will see name of the movie, overview, budget, release date. This is just to demo project.",
+    tech: "HTML, CSS, Javascript, Nodejs, Reactjs, Axios, Vercel",
+    features: [
+      "Modern search UI",
+      "Modern use of react components",
+      "Direct movie search option",
+    ],
+
+    image: "../image/movie.png",
+    deploy: "https://deepu2560-movie-app.vercel.app/",
+    github: "https://github.com/Deepu2560/movie-app",
+  },
+  {
+    id: "project-stopwatch",
+    name: "Stopwatch App",
+    discription:
+      "In this project you will see two react component, one is clock which shows you current time in you location and another one is a stop watch which you can start , stop and restart timer of stopwatch.",
+    tech: "Reactjs, HTML, CSS, Javascript, Nodejs, Vercel",
+    features: [
+      "Attractive UI",
+      "Real time watch",
+      "Can start, stop and reset stopwatch",
+    ],
+
+    image: "../image/watch.png",
+    deploy: "https://deepu2560-stopwatch.vercel.app/",
+    github: "https://github.com/Deepu2560/stopwatch",
+  },
+  {
+    id: "project-sports-activities",
+    name: "Sports Activites",
+    discription:
+      "This solo frontend assignment. In this react web application shows sports activities. Header contains sports categories, on click of any one shows that sports related activities.",
+    tech: "HTML, CSS, Javascript, Reactjs, React-redux, React-router, Font-awesome icons, Vercel, Json-server",
+    features: ["Dynamic UI", "JSON data", "Loading for getting data"],
+
+    image: "../image/sportActivities.png",
+    deploy: "https://deepu2560-sports.vercel.app/",
+    github: "https://github.com/Deepu2560/sports-activities",
+  },
+  {
+    id: "project-text-to-speech",
+    name: "Text TO Speech",
+    discription:
+      "This is a solo project. In this project text will be converted text to speech. I made this project with use of HTML, CSS and javascript. You can also reset speech and text my pausing and then clicking reset button or by refreshing page.",
+    tech: "HTML, CSS, Javascript, Vercel",
+    features: [
+      "Dynamic modern UI",
+      "Text to speech",
+      "Speech voice according to device",
+    ],
+
+    image: "../image/textToSpeech.png",
+    deploy: "https://deepu2560-text-to-speech.vercel.app/",
+    github: "https://github.com/Deepu2560/text-to-speech",
+  },
+  {
+    id: "project-word-game",
+    name: "Word Game",
+    discription:
+      "This is a solo project. This is simple word puzzle game, in which you have to guess the word correct before the timer ends.",
+    tech: "HTML, CSS, Javascript, Vercel",
+    features: [
+      "Scramble word game",
+      "Guess word in limited timing",
+      "Challenges to improve problem solving skill",
+    ],
+
+    image: "../image/wordGame.png",
+    deploy: "https://deepu2560-word-game.vercel.app/",
+    github: "https://github.com/Deepu2560/text-to-speech",
+  },
+  {
+    id: "project-word-count",
+    name: "Word Counter",
+    discription:
+      "This web app you can count words in you speech, essay, mail, etc. Just paste your paragraph in this app and you will able see word and characters.",
+    tech: "HTML, CSS, Javascript, Reactjs, Vercel",
+    features: [
+      "word count in paragraph",
+      "Character count in paragraph",
+      "Responsive Design",
+    ],
+
+    image: "../image/wordCount.png",
+    deploy: "https://deepu2560-word-count.vercel.app/",
+    github: "https://github.com/Deepu2560/word-counter",
+  },
 ];
 
 export default data;
