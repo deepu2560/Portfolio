@@ -280,7 +280,47 @@
   height: 50px;
 }
 
-@media only screen and (min-width: 416px) and (max-width: 820px) {
+.experience-section {
+  width: 90%;
+  margin: auto;
+}
+
+.experience-section > h1 {
+  color: #fff;
+  font-size: 400%;
+  text-align: center;
+}
+
+.experience-section > div {
+  width: 70%;
+  margin: auto;
+}
+
+.experience-section > div > h2 {
+  color: #04aa6d;
+}
+
+.experience-section > div > div {
+  width: 95%;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.experience-section > div > div > a {
+  color: #fff;
+}
+
+.experience-section > div > ul > li {
+  margin: 1% 0;
+}
+
+.experience-section > div > p {
+  width: 90%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
   .home-about-main-div {
     color: rgb(175, 174, 174);
     display: flex;
@@ -461,9 +501,17 @@
   .product-features {
     width: 90%;
   }
+
+  .experience-section > div {
+    width: 80%;
+  }
+
+  .experience-section > h1 {
+    font-size: 250%;
+  }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 415px) {
+@media only screen and (min-width: 0px) and (max-width: 600px) {
   .home-about-main-div {
     color: rgb(175, 174, 174);
     display: block;
@@ -629,5 +677,38 @@
 
   .product-features {
     width: 90%;
+  }
+
+  .experience-section {
+    width: 100%;
+  }
+
+  .experience-section > div {
+    width: 95%;
+  }
+
+  .experience-section > h1 {
+    font-size: 250%;
+  }
+
+  .experience-section > div > h2 {
+    font-size: 20px;
+  }
+
+  .experience-section > div > p {
+    width: 100%;
+    font-size: 14px;
+  }
+
+  .experience-section > div > div > a {
+    font-size: 14px;
+  }
+
+  .experience-section > div > div > p {
+    font-size: 12px;
+  }
+
+  .experience-section > div > ul > li {
+    font-size: 14px;
   }
 }
