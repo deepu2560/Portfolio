@@ -300,7 +300,7 @@
   color: #04aa6d;
 }
 
-.experience-section > div > div {
+.experience-section > div div {
   width: 95%;
   margin: auto;
   display: flex;
@@ -308,7 +308,7 @@
   justify-content: space-between;
 }
 
-.experience-section > div > div > a {
+.experience-section > div div > a {
   color: #fff;
 }
 
@@ -700,11 +700,11 @@
     font-size: 14px;
   }
 
-  .experience-section > div > div > a {
+  .experience-section > div div > a {
     font-size: 14px;
   }
 
-  .experience-section > div > div > p {
+  .experience-section > div div > p {
     font-size: 12px;
   }
 

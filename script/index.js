@@ -14,7 +14,7 @@ document
   .addEventListener("click", function (event) {
     event.preventDefault();
     window.open(
-      "https://drive.google.com/file/d/1V526SmC1U3MukLDV15Z1sk0pDXrhRx1M/view?usp=sharing",
+      "https://drive.google.com/file/d/1wc9MMzWtt3nikwIZDKUz84ve8OA9EZ6D/view?usp=sharing",
       "_blank",
     );
   });
