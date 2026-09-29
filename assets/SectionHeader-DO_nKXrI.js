@@ -1,0 +1,1 @@
+import{j as e}from"./framework-vendor-CyVlaxPG.js";const c=({index:s,eyebrow:r,title:n})=>e.jsxs("header",{className:"section-header",children:[e.jsx("span",{children:s}),e.jsx("p",{children:r}),e.jsx("h2",{children:n})]});export{c as S};
